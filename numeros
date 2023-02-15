@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include <math.h>
+
+
+
+
+void numeros(int num){
+	
+	if(num%2 == 0){
+		printf("numero par\n");
+	}else{
+		printf("numero impar\n");
+	}
+	
+	
+}
+
+
+
+
+int main(){
+	
+int num;
+
+printf("insira um numero inteiro:\n");
+scanf("%d",&num);
+
+numeros(num);
+
+
+
+	system("PAUSE");
+	return 0;
+}
